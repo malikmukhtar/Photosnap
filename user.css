@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: #a6a6a6;
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  a {
+    /* color: #25aff3; */
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  /* flash Message */
+  .flash {
+      background-color: red;
+      height: 100px;
+      width: 100%;
+  }
+
+  /* Nav */
+  
+  .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .main-nav ul {
+    display: flex;
+  }
+  
+  .main-nav ul li {
+    padding: 0 50px;
+  }
+
+  .cart-right {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 50px;
+}
+  
+.cart-right h1 {
+    font-size: 15px;
+    color: white;
+    margin-left: -30px;
+}
+  .row {
+      /* background-color: green; */
+  }
+
+  .details {
+      /* background-color: red; */
+      margin: 5px 0 5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  hr {
+      border: 1px solid white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
